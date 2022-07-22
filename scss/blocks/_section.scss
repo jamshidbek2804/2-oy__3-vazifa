@@ -1,0 +1,44 @@
+.section {
+  width: 100%;
+  margin-bottom: 188px;
+
+  &__container {
+    @include container;
+    width: 1110px;
+  }
+
+  &__bg {
+    background-image: url(../img/section-bg-text.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__cards {
+    padding-top: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__card {
+    max-width: 250px;
+  }
+
+  &__title {
+    @include font-fraunces;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333d4b;
+    margin-top: 72px;
+    margin-bottom: 24px;
+  }
+
+  &__paragraf {
+    @include font-barlow;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333d4b;
+  }
+}

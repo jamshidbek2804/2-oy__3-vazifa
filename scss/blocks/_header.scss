@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  padding: 44px 0;
+
+  &__container {
+    @include container;
+  }
+
+  &__info {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__navbar {
+    list-style-type: none;
+  }
+
+  &__nav-list {
+    display: inline-block;
+  }
+
+  &__nav-item {
+    @include font-barlow;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+    text-decoration: none;
+  }
+
+  &__nav-item-2 {
+    margin: 0 32px;
+  }
+
+  &__nav-item:hover {
+    color: rgba(51, 61, 75, 1);
+  }
+}

@@ -1,0 +1,88 @@
+.section-2 {
+  width: 100%;
+  margin-bottom: 189px;
+
+  &__container {
+    @include container;
+    width: 1045px;
+  }
+
+  &__title {
+    @include font-fraunces;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 80px;
+    color: #83888f;
+  }
+
+  &__circles {
+    position: relative;
+    width: 791px;
+    margin-bottom: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__circle {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #fefcf7;
+    border: 2px solid #0e8784;
+  }
+
+  &__circle-2 {
+    margin: 0 349px;
+  }
+
+  &__circle-3 {
+    margin-left: 744.5px;
+  }
+
+  &__line {
+    position: absolute;
+    width: 760px;
+    height: 1px;
+    border: 2px solid #fdd6ba;
+    background-color: rgba(253, 214, 186, 1);
+    margin-left: 15.5px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  &__card-2 {
+    margin: 0 95px;
+  }
+
+  &__card-number {
+    @include font-fraunces;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+
+  &__card-title {
+    @include font-fraunces;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333d4b;
+    margin-top: 38px;
+    margin-bottom: 42px;
+    max-width: 255px;
+  }
+
+  &__card-paragraf {
+    @include font-barlow;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 285px;
+    color: #333d4b;
+  }
+}
